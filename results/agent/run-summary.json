@@ -1,0 +1,16 @@
+[
+  {
+    "max_steps": 3,
+    "tool_calls": 3,
+    "sources_read": 2,
+    "brief_written": false,
+    "stop_reason": "max_steps_exhausted"
+  },
+  {
+    "max_steps": 6,
+    "tool_calls": 5,
+    "sources_read": 3,
+    "brief_written": true,
+    "stop_reason": "brief_written_pending_independent_validation"
+  }
+]

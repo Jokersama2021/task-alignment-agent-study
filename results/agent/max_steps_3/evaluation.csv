@@ -1,0 +1,2 @@
+max_steps,tool_calls,sources_read,validator,failed_checks
+3,3,2,FAIL,all_three_sources_read;write_after_reads;brief_exists;write_receipt_matches_file;citations_match_read_sources;card_summaries_and_limits_preserved;brief_character_budget

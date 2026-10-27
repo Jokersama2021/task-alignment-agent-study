@@ -1,0 +1,5 @@
+{
+  "role": "negative validator quality check",
+  "mutation": "citation-mismatch",
+  "not_an_experiment_condition": true
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": {
+    "config.json": "a90c3f936fb246c77adfba5149846e210f58432c0ec43272a50fdcea76a22e66",
+    "cases.json": "05dc8435eb1d45e990061d91dc8d816d161fd28a214ee6109b61089b0bbb6570"
+  },
+  "protocol_status": "fixed_before_batch_inference",
+  "pilot_cases_included": false,
+  "refrozen_at_utc": "2026-10-27T07:32:47.151401+00:00",
+  "refreeze_reason": "Before batch inference: authorized CUDA shared-GPU route after successful bounded probe; cases unchanged."
+}

@@ -1,0 +1,534 @@
+[
+  {
+    "number": 1,
+    "id": "greshake2023indirect",
+    "paper_id": "greshake",
+    "title": "Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+    "authors": [
+      "Kai Greshake",
+      "Sahar Abdelnabi",
+      "Shailesh Mishra",
+      "Christoph Endres",
+      "Thorsten Holz",
+      "Mario Fritz"
+    ],
+    "authors_structured": [
+      {
+        "given": "Kai",
+        "family": "Greshake"
+      },
+      {
+        "given": "Sahar",
+        "family": "Abdelnabi"
+      },
+      {
+        "given": "Shailesh",
+        "family": "Mishra"
+      },
+      {
+        "given": "Christoph",
+        "family": "Endres"
+      },
+      {
+        "given": "Thorsten",
+        "family": "Holz"
+      },
+      {
+        "given": "Mario",
+        "family": "Fritz"
+      }
+    ],
+    "year": 2023,
+    "venue": "AISec 2023",
+    "booktitle": "Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security",
+    "volume": null,
+    "pages": "79–90",
+    "doi": "10.1145/3605764.3623985",
+    "publisher": "ACM",
+    "url": "https://doi.org/10.1145/3605764.3623985",
+    "pdf_url": "https://arxiv.org/pdf/2302.12173",
+    "verification_urls": [
+      "https://api.crossref.org/works/10.1145%2F3605764.3623985",
+      "https://arxiv.org/abs/2302.12173"
+    ],
+    "metadata_verified_utc": "2026-10-27",
+    "reading_coverage": "Official metadata and abstract reviewed; full paper not read for this task.",
+    "formatted": "[1] Kai Greshake et al. (2023). Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection. AISec 2023, pp. 79–90. doi:10.1145/3605764.3623985.",
+    "metadata_note": "ACM landing page blocked with HTTP 403, but ACM-deposited Crossref record verifies formal AISec 2023 proceedings title, pp.79–90 and DOI. arXiv v2 read only at abstract level."
+  },
+  {
+    "number": 2,
+    "id": "liu2024formalizing",
+    "paper_id": "liu",
+    "title": "Formalizing and Benchmarking Prompt Injection Attacks and Defenses",
+    "authors": [
+      "Yupei Liu",
+      "Yuqi Jia",
+      "Runpeng Geng",
+      "Jinyuan Jia",
+      "Neil Zhenqiang Gong"
+    ],
+    "authors_structured": [
+      {
+        "given": "Yupei",
+        "family": "Liu"
+      },
+      {
+        "given": "Yuqi",
+        "family": "Jia"
+      },
+      {
+        "given": "Runpeng",
+        "family": "Geng"
+      },
+      {
+        "given": "Jinyuan",
+        "family": "Jia"
+      },
+      {
+        "given": "Neil Zhenqiang",
+        "family": "Gong"
+      }
+    ],
+    "year": 2024,
+    "venue": "USENIX Security 2024",
+    "booktitle": "33rd USENIX Security Symposium (USENIX Security 24)",
+    "volume": null,
+    "pages": "1831–1847",
+    "doi": null,
+    "publisher": "USENIX Association",
+    "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei",
+    "pdf_url": "https://www.usenix.org/system/files/usenixsecurity24-liu-yupei.pdf",
+    "verification_urls": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei"
+    ],
+    "metadata_verified_utc": "2026-10-27",
+    "reading_coverage": "Official metadata and abstract reviewed; full paper not read for this task.",
+    "formatted": "[2] Yupei Liu et al. (2024). Formalizing and Benchmarking Prompt Injection Attacks and Defenses. USENIX Security 2024, pp. 1831–1847."
+  },
+  {
+    "number": 3,
+    "id": "yi2025bipia",
+    "paper_id": "bipia",
+    "title": "Benchmarking and Defending against Indirect Prompt Injection Attacks on Large Language Models",
+    "authors": [
+      "Jingwei Yi",
+      "Yueqi Xie",
+      "Bin Zhu",
+      "Emre Kiciman",
+      "Guangzhong Sun",
+      "Xing Xie",
+      "Fangzhao Wu"
+    ],
+    "authors_structured": [
+      {
+        "given": "Jingwei",
+        "family": "Yi"
+      },
+      {
+        "given": "Yueqi",
+        "family": "Xie"
+      },
+      {
+        "given": "Bin",
+        "family": "Zhu"
+      },
+      {
+        "given": "Emre",
+        "family": "Kiciman"
+      },
+      {
+        "given": "Guangzhong",
+        "family": "Sun"
+      },
+      {
+        "given": "Xing",
+        "family": "Xie"
+      },
+      {
+        "given": "Fangzhao",
+        "family": "Wu"
+      }
+    ],
+    "year": 2025,
+    "venue": "KDD 2025",
+    "booktitle": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.1",
+    "volume": null,
+    "pages": "1809–1820",
+    "doi": "10.1145/3690624.3709179",
+    "publisher": "ACM",
+    "url": "https://doi.org/10.1145/3690624.3709179",
+    "pdf_url": "https://arxiv.org/pdf/2312.14197",
+    "verification_urls": [
+      "https://api.crossref.org/works/10.1145%2F3690624.3709179",
+      "https://www.kdd.org/kdd2025/research-track-papers-2/",
+      "https://arxiv.org/abs/2312.14197"
+    ],
+    "metadata_verified_utc": "2026-10-27",
+    "reading_coverage": "Official metadata and abstract reviewed; full paper not read for this task.",
+    "formatted": "[3] Jingwei Yi et al. (2025). Benchmarking and Defending against Indirect Prompt Injection Attacks on Large Language Models. KDD 2025, pp. 1809–1820. doi:10.1145/3690624.3709179."
+  },
+  {
+    "number": 4,
+    "id": "zhan2024injecagent",
+    "paper_id": "injecagent",
+    "title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents",
+    "authors": [
+      "Qiusi Zhan",
+      "Zhixiang Liang",
+      "Zifan Ying",
+      "Daniel Kang"
+    ],
+    "authors_structured": [
+      {
+        "given": "Qiusi",
+        "family": "Zhan"
+      },
+      {
+        "given": "Zhixiang",
+        "family": "Liang"
+      },
+      {
+        "given": "Zifan",
+        "family": "Ying"
+      },
+      {
+        "given": "Daniel",
+        "family": "Kang"
+      }
+    ],
+    "year": 2024,
+    "venue": "Findings of ACL 2024",
+    "booktitle": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "volume": null,
+    "pages": "10471–10506",
+    "doi": "10.18653/v1/2024.findings-acl.624",
+    "publisher": "Association for Computational Linguistics",
+    "url": "https://aclanthology.org/2024.findings-acl.624/",
+    "pdf_url": "https://aclanthology.org/2024.findings-acl.624.pdf",
+    "verification_urls": [
+      "https://aclanthology.org/2024.findings-acl.624/"
+    ],
+    "metadata_verified_utc": "2026-10-27",
+    "reading_coverage": "PDF pp.1–9 complete main text; p.10 ethics and limitations before References. Pages 5–6 reread after initial output truncation.",
+    "formatted": "[4] Qiusi Zhan et al. (2024). InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents. Findings of ACL 2024, pp. 10471–10506. doi:10.18653/v1/2024.findings-acl.624."
+  },
+  {
+    "number": 5,
+    "id": "debenedetti2024agentdojo",
+    "paper_id": "agentdojo",
+    "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+    "authors": [
+      "Edoardo Debenedetti",
+      "Jie Zhang",
+      "Mislav Balunovic",
+      "Luca Beurer-Kellner",
+      "Marc Fischer",
+      "Florian Tramèr"
+    ],
+    "authors_structured": [
+      {
+        "given": "Edoardo",
+        "family": "Debenedetti"
+      },
+      {
+        "given": "Jie",
+        "family": "Zhang"
+      },
+      {
+        "given": "Mislav",
+        "family": "Balunovic"
+      },
+      {
+        "given": "Luca",
+        "family": "Beurer-Kellner"
+      },
+      {
+        "given": "Marc",
+        "family": "Fischer"
+      },
+      {
+        "given": "Florian",
+        "family": "Tramèr"
+      }
+    ],
+    "year": 2024,
+    "venue": "NeurIPS 2024, Datasets and Benchmarks Track",
+    "booktitle": "Advances in Neural Information Processing Systems",
+    "volume": "37",
+    "pages": "82895–82920",
+    "doi": "10.52202/079017-2636",
+    "publisher": "Curran Associates, Inc.",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/97091a5177d8dc64b1da8bf3e1f6fb54-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "verification_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html",
+      "https://proceedings.neurips.cc/paper_files/paper/23699-/bibtex"
+    ],
+    "metadata_verified_utc": "2026-10-27",
+    "reading_coverage": "PDF pp.1–9 complete; p.10 conclusion continuation, broader impact and acknowledgments before References.",
+    "formatted": "[5] Edoardo Debenedetti et al. (2024). AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents. NeurIPS 2024, Datasets and Benchmarks Track, vol. 37, pp. 82895–82920. doi:10.52202/079017-2636."
+  },
+  {
+    "number": 6,
+    "id": "zhan2025adaptive",
+    "paper_id": "adaptive",
+    "title": "Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents",
+    "authors": [
+      "Qiusi Zhan",
+      "Richard Fang",
+      "Henil Shalin Panchal",
+      "Daniel Kang"
+    ],
+    "authors_structured": [
+      {
+        "given": "Qiusi",
+        "family": "Zhan"
+      },
+      {
+        "given": "Richard",
+        "family": "Fang"
+      },
+      {
+        "given": "Henil Shalin",
+        "family": "Panchal"
+      },
+      {
+        "given": "Daniel",
+        "family": "Kang"
+      }
+    ],
+    "year": 2025,
+    "venue": "Findings of NAACL 2025",
+    "booktitle": "Findings of the Association for Computational Linguistics: NAACL 2025",
+    "volume": null,
+    "pages": "7116–7132",
+    "doi": "10.18653/v1/2025.findings-naacl.395",
+    "publisher": "Association for Computational Linguistics",
+    "url": "https://aclanthology.org/2025.findings-naacl.395/",
+    "pdf_url": "https://aclanthology.org/2025.findings-naacl.395.pdf",
+    "verification_urls": [
+      "https://aclanthology.org/2025.findings-naacl.395/"
+    ],
+    "metadata_verified_utc": "2026-10-27",
+    "reading_coverage": "Official metadata and abstract reviewed; full paper not read for this task.",
+    "formatted": "[6] Qiusi Zhan et al. (2025). Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents. Findings of NAACL 2025, pp. 7116–7132. doi:10.18653/v1/2025.findings-naacl.395."
+  },
+  {
+    "number": 7,
+    "id": "jia2025taskshield",
+    "paper_id": "task-shield",
+    "title": "The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in LLM Agents",
+    "authors": [
+      "Feiran Jia",
+      "Tong Wu",
+      "Xin Qin",
+      "Anna Squicciarini"
+    ],
+    "authors_structured": [
+      {
+        "given": "Feiran",
+        "family": "Jia"
+      },
+      {
+        "given": "Tong",
+        "family": "Wu"
+      },
+      {
+        "given": "Xin",
+        "family": "Qin"
+      },
+      {
+        "given": "Anna",
+        "family": "Squicciarini"
+      }
+    ],
+    "year": 2025,
+    "venue": "ACL 2025, Volume 1: Long Papers",
+    "booktitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "volume": null,
+    "pages": "29680–29697",
+    "doi": "10.18653/v1/2025.acl-long.1435",
+    "publisher": "Association for Computational Linguistics",
+    "url": "https://aclanthology.org/2025.acl-long.1435/",
+    "pdf_url": "https://aclanthology.org/2025.acl-long.1435.pdf",
+    "verification_urls": [
+      "https://aclanthology.org/2025.acl-long.1435/"
+    ],
+    "metadata_verified_utc": "2026-10-27",
+    "reading_coverage": "Main text pp.1–9 including method, all main tables and limitations; Appendix A–E pp.12–18 including Algorithm 1, prompts Figures 4–7 and model settings.",
+    "formatted": "[7] Feiran Jia et al. (2025). The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in LLM Agents. ACL 2025, Volume 1: Long Papers, pp. 29680–29697. doi:10.18653/v1/2025.acl-long.1435."
+  },
+  {
+    "number": 8,
+    "id": "zhu2025melon",
+    "paper_id": "melon",
+    "title": "MELON: Provable Defense Against Indirect Prompt Injection Attacks in AI Agents",
+    "authors": [
+      "Kaijie Zhu",
+      "Xianjun Yang",
+      "Jindong Wang",
+      "Wenbo Guo",
+      "William Yang Wang"
+    ],
+    "authors_structured": [
+      {
+        "given": "Kaijie",
+        "family": "Zhu"
+      },
+      {
+        "given": "Xianjun",
+        "family": "Yang"
+      },
+      {
+        "given": "Jindong",
+        "family": "Wang"
+      },
+      {
+        "given": "Wenbo",
+        "family": "Guo"
+      },
+      {
+        "given": "William Yang",
+        "family": "Wang"
+      }
+    ],
+    "year": 2025,
+    "venue": "ICML 2025",
+    "booktitle": "Proceedings of the 42nd International Conference on Machine Learning",
+    "volume": "267",
+    "pages": "80310–80329",
+    "doi": null,
+    "publisher": "PMLR",
+    "url": "https://proceedings.mlr.press/v267/zhu25z.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhu25z/zhu25z.pdf",
+    "verification_urls": [
+      "https://proceedings.mlr.press/v267/zhu25z.html"
+    ],
+    "metadata_verified_utc": "2026-10-27",
+    "reading_coverage": "Official metadata and abstract reviewed; full paper not read for this task.",
+    "formatted": "[8] Kaijie Zhu et al. (2025). MELON: Provable Defense Against Indirect Prompt Injection Attacks in AI Agents. ICML 2025, vol. 267, pp. 80310–80329."
+  },
+  {
+    "number": 9,
+    "id": "wang2025agentvigil",
+    "paper_id": "agentvigil",
+    "title": "AGENTVIGIL: Automatic Black-Box Red-teaming for Indirect Prompt Injection against LLM Agents",
+    "authors": [
+      "Zhun Wang",
+      "Vincent Siu",
+      "Zhe Ye",
+      "Tianneng Shi",
+      "Yuzhou Nie",
+      "Xuandong Zhao",
+      "Chenguang Wang",
+      "Wenbo Guo",
+      "Dawn Song"
+    ],
+    "authors_structured": [
+      {
+        "given": "Zhun",
+        "family": "Wang"
+      },
+      {
+        "given": "Vincent",
+        "family": "Siu"
+      },
+      {
+        "given": "Zhe",
+        "family": "Ye"
+      },
+      {
+        "given": "Tianneng",
+        "family": "Shi"
+      },
+      {
+        "given": "Yuzhou",
+        "family": "Nie"
+      },
+      {
+        "given": "Xuandong",
+        "family": "Zhao"
+      },
+      {
+        "given": "Chenguang",
+        "family": "Wang"
+      },
+      {
+        "given": "Wenbo",
+        "family": "Guo"
+      },
+      {
+        "given": "Dawn",
+        "family": "Song"
+      }
+    ],
+    "year": 2025,
+    "venue": "Findings of EMNLP 2025",
+    "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "volume": null,
+    "pages": "23159–23172",
+    "doi": "10.18653/v1/2025.findings-emnlp.1258",
+    "publisher": "Association for Computational Linguistics",
+    "url": "https://aclanthology.org/2025.findings-emnlp.1258/",
+    "pdf_url": "https://aclanthology.org/2025.findings-emnlp.1258.pdf",
+    "verification_urls": [
+      "https://aclanthology.org/2025.findings-emnlp.1258/"
+    ],
+    "metadata_verified_utc": "2026-10-27",
+    "reading_coverage": "Main text pp.1–9 including Sections 1–8, method, all main tables, limitations and ethics.",
+    "formatted": "[9] Zhun Wang et al. (2025). AGENTVIGIL: Automatic Black-Box Red-teaming for Indirect Prompt Injection against LLM Agents. Findings of EMNLP 2025, pp. 23159–23172. doi:10.18653/v1/2025.findings-emnlp.1258."
+  },
+  {
+    "number": 10,
+    "id": "evtimov2025wasp",
+    "paper_id": "wasp",
+    "title": "WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
+    "authors": [
+      "Ivan Evtimov",
+      "Arman Zharmagambetov",
+      "Aaron Grattafiori",
+      "Chuan Guo",
+      "Kamalika Chaudhuri"
+    ],
+    "authors_structured": [
+      {
+        "given": "Ivan",
+        "family": "Evtimov"
+      },
+      {
+        "given": "Arman",
+        "family": "Zharmagambetov"
+      },
+      {
+        "given": "Aaron",
+        "family": "Grattafiori"
+      },
+      {
+        "given": "Chuan",
+        "family": "Guo"
+      },
+      {
+        "given": "Kamalika",
+        "family": "Chaudhuri"
+      }
+    ],
+    "year": 2025,
+    "venue": "NeurIPS 2025, Datasets and Benchmarks Track",
+    "booktitle": "Advances in Neural Information Processing Systems",
+    "volume": "38",
+    "pages": null,
+    "doi": "10.52202/085713-0666",
+    "publisher": "Curran Associates, Inc.",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1c9818387f5dd0a0bc151214660f059d-Abstract-Datasets_and_Benchmarks_Track.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/1c9818387f5dd0a0bc151214660f059d-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "verification_urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1c9818387f5dd0a0bc151214660f059d-Abstract-Datasets_and_Benchmarks_Track.html",
+      "https://proceedings.neurips.cc/paper_files/paper/32947-/bibtex"
+    ],
+    "metadata_verified_utc": "2026-10-27",
+    "reading_coverage": "Complete main text pp.1–10 including method, results Tables 2–4 and limitations.",
+    "formatted": "[10] Ivan Evtimov et al. (2025). WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks. NeurIPS 2025, Datasets and Benchmarks Track, vol. 38. doi:10.52202/085713-0666.",
+    "metadata_note": "Official BibTeX gives year 2025 and an empty pages field; HTML online publication date is 2026-04-23. Cite conference year 2025, omit unavailable proceedings page range; PDF is 23 pages."
+  }
+]

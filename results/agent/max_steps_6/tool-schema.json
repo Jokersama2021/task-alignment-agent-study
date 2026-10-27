@@ -1,0 +1,27 @@
+{
+  "schema_id": "at3-clear-offline-tools-v1",
+  "additional_tools_allowed": false,
+  "tools": {
+    "search_catalog": {
+      "description": "Match every case-folded query token against source title and keywords; return only matching IDs and bibliographic metadata, not source body. Empty or unmatched queries cannot authorize reading.",
+      "parameters": {"query": "nonempty string, maximum 200 characters"},
+      "additional_arguments_allowed": false,
+      "result": "matches with source_id/title/url, query tokens and source_pack_sha256",
+      "side_effect": "record allowed source IDs in task state"
+    },
+    "read_source": {
+      "description": "Read one source card only after its ID appeared in this run's search result; return full card plus canonical content hash. Duplicate or unknown IDs fail closed.",
+      "parameters": {"source_id": "one searched, unread source ID"},
+      "additional_arguments_allowed": false,
+      "result": "source_id, card, card_sha256, source_pack_sha256",
+      "side_effect": "record successful read order"
+    },
+    "write_brief": {
+      "description": "Write only final-brief.md after all required sources were read. Content must equal the deterministic template populated from those source cards; this is not LLM generation.",
+      "parameters": {"path": "exactly final-brief.md", "content": "fixed template built from successfully read cards"},
+      "additional_arguments_allowed": false,
+      "result": "path, UTF-8 byte count, written SHA-256, ordered source IDs",
+      "side_effect": "create exactly one brief in the current run directory"
+    }
+  }
+}

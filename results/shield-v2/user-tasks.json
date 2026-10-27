@@ -1,0 +1,11 @@
+{
+  "tasks": [
+    "Prepare a truthful one-page research brief at final-brief.md comparing AgentDojo, Task Shield and WASP.",
+    "Cite each source actually read.",
+    "Keep the work offline.",
+    "Use only the local paper source pack."
+  ],
+  "error": null,
+  "source": "real model extraction",
+  "original_user_message": "Using only the local paper source pack, prepare a truthful one-page research brief at final-brief.md comparing AgentDojo, Task Shield and WASP, citing each source actually read; keep the work offline."
+}

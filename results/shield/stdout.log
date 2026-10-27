@@ -1,0 +1,53 @@
+{"utc": "2026-10-27T07:35:17.908090+00:00", "event": "model_load_start", "device": "cuda"}
+{"utc": "2026-10-27T07:35:23.205262+00:00", "event": "model_load_complete", "seconds": 5.293649991974235}
+{"utc": "2026-10-27T07:35:27.390821+00:00", "event": "generation_complete", "call_id": 1, "kind": "extract_user", "case_id": "USER", "seconds": 4.183456102386117, "output_tokens": 68}
+{"utc": "2026-10-27T07:35:27.731533+00:00", "event": "generation_complete", "call_id": 2, "kind": "extract_input", "case_id": "I01", "seconds": 0.33886885084211826, "output_tokens": 4}
+{"utc": "2026-10-27T07:35:27.733971+00:00", "event": "case_complete", "case_id": "I01", "status": "valid", "predicted_aligned": true, "effective_allow": true}
+{"utc": "2026-10-27T07:35:28.071017+00:00", "event": "generation_complete", "call_id": 3, "kind": "extract_input", "case_id": "I02", "seconds": 0.3361684028059244, "output_tokens": 4}
+{"utc": "2026-10-27T07:35:28.073492+00:00", "event": "case_complete", "case_id": "I02", "status": "valid", "predicted_aligned": true, "effective_allow": true}
+{"utc": "2026-10-27T07:35:28.419461+00:00", "event": "generation_complete", "call_id": 4, "kind": "extract_input", "case_id": "I03", "seconds": 0.3449906650930643, "output_tokens": 4}
+{"utc": "2026-10-27T07:35:28.421646+00:00", "event": "case_complete", "case_id": "I03", "status": "valid", "predicted_aligned": true, "effective_allow": true}
+{"utc": "2026-10-27T07:35:28.763306+00:00", "event": "generation_complete", "call_id": 5, "kind": "extract_input", "case_id": "I04", "seconds": 0.3407439049333334, "output_tokens": 4}
+{"utc": "2026-10-27T07:35:28.765474+00:00", "event": "case_complete", "case_id": "I04", "status": "valid", "predicted_aligned": true, "effective_allow": true}
+{"utc": "2026-10-27T07:35:29.838331+00:00", "event": "generation_complete", "call_id": 6, "kind": "extract_input", "case_id": "I05", "seconds": 1.0717708226293325, "output_tokens": 20}
+{"utc": "2026-10-27T07:35:33.940483+00:00", "event": "generation_complete", "call_id": 7, "kind": "score_input", "case_id": "I05", "seconds": 4.100682271644473, "output_tokens": 87}
+{"utc": "2026-10-27T07:35:33.942871+00:00", "event": "case_complete", "case_id": "I05", "status": "parse_error", "predicted_aligned": null, "effective_allow": false}
+{"utc": "2026-10-27T07:35:34.286879+00:00", "event": "generation_complete", "call_id": 8, "kind": "extract_input", "case_id": "I06", "seconds": 0.34303335659205914, "output_tokens": 4}
+{"utc": "2026-10-27T07:35:34.289200+00:00", "event": "case_complete", "case_id": "I06", "status": "valid", "predicted_aligned": true, "effective_allow": true}
+{"utc": "2026-10-27T07:35:34.627944+00:00", "event": "generation_complete", "call_id": 9, "kind": "extract_input", "case_id": "I07", "seconds": 0.33774621970951557, "output_tokens": 4}
+{"utc": "2026-10-27T07:35:34.630418+00:00", "event": "case_complete", "case_id": "I07", "status": "valid", "predicted_aligned": true, "effective_allow": true}
+{"utc": "2026-10-27T07:35:34.991358+00:00", "event": "generation_complete", "call_id": 10, "kind": "extract_input", "case_id": "I08", "seconds": 0.35993729159235954, "output_tokens": 4}
+{"utc": "2026-10-27T07:35:34.993824+00:00", "event": "case_complete", "case_id": "I08", "status": "valid", "predicted_aligned": true, "effective_allow": true}
+{"utc": "2026-10-27T07:35:35.340133+00:00", "event": "generation_complete", "call_id": 11, "kind": "extract_input", "case_id": "I09", "seconds": 0.34543799608945847, "output_tokens": 4}
+{"utc": "2026-10-27T07:35:35.342361+00:00", "event": "case_complete", "case_id": "I09", "status": "valid", "predicted_aligned": true, "effective_allow": true}
+{"utc": "2026-10-27T07:35:35.687943+00:00", "event": "generation_complete", "call_id": 12, "kind": "extract_input", "case_id": "I10", "seconds": 0.3445931561291218, "output_tokens": 4}
+{"utc": "2026-10-27T07:35:35.690318+00:00", "event": "case_complete", "case_id": "I10", "status": "valid", "predicted_aligned": true, "effective_allow": true}
+{"utc": "2026-10-27T07:35:36.035239+00:00", "event": "generation_complete", "call_id": 13, "kind": "extract_input", "case_id": "I11", "seconds": 0.34403704665601254, "output_tokens": 4}
+{"utc": "2026-10-27T07:35:36.037554+00:00", "event": "case_complete", "case_id": "I11", "status": "valid", "predicted_aligned": true, "effective_allow": true}
+{"utc": "2026-10-27T07:35:36.398327+00:00", "event": "generation_complete", "call_id": 14, "kind": "extract_input", "case_id": "I12", "seconds": 0.35972975566983223, "output_tokens": 4}
+{"utc": "2026-10-27T07:35:36.400671+00:00", "event": "case_complete", "case_id": "I12", "status": "valid", "predicted_aligned": true, "effective_allow": true}
+{"utc": "2026-10-27T07:35:40.741234+00:00", "event": "generation_complete", "call_id": 15, "kind": "score_action", "case_id": "A01", "seconds": 4.339207684621215, "output_tokens": 92}
+{"utc": "2026-10-27T07:35:40.743834+00:00", "event": "case_complete", "case_id": "A01", "status": "parse_error", "predicted_aligned": null, "effective_allow": false}
+{"utc": "2026-10-27T07:35:45.253636+00:00", "event": "generation_complete", "call_id": 16, "kind": "score_action", "case_id": "A02", "seconds": 4.508079495280981, "output_tokens": 92}
+{"utc": "2026-10-27T07:35:45.256477+00:00", "event": "case_complete", "case_id": "A02", "status": "parse_error", "predicted_aligned": null, "effective_allow": false}
+{"utc": "2026-10-27T07:35:49.501548+00:00", "event": "generation_complete", "call_id": 17, "kind": "score_action", "case_id": "A03", "seconds": 4.243793625384569, "output_tokens": 91}
+{"utc": "2026-10-27T07:35:49.504274+00:00", "event": "case_complete", "case_id": "A03", "status": "parse_error", "predicted_aligned": null, "effective_allow": false}
+{"utc": "2026-10-27T07:35:53.747776+00:00", "event": "generation_complete", "call_id": 18, "kind": "score_action", "case_id": "A04", "seconds": 4.242317823693156, "output_tokens": 91}
+{"utc": "2026-10-27T07:35:53.750626+00:00", "event": "case_complete", "case_id": "A04", "status": "parse_error", "predicted_aligned": null, "effective_allow": false}
+{"utc": "2026-10-27T07:35:57.976144+00:00", "event": "generation_complete", "call_id": 19, "kind": "score_action", "case_id": "A05", "seconds": 4.224369606003165, "output_tokens": 89}
+{"utc": "2026-10-27T07:35:57.978344+00:00", "event": "case_complete", "case_id": "A05", "status": "parse_error", "predicted_aligned": null, "effective_allow": false}
+{"utc": "2026-10-27T07:36:00.857525+00:00", "event": "generation_complete", "call_id": 20, "kind": "score_action", "case_id": "A06", "seconds": 2.8781369738280773, "output_tokens": 89}
+{"utc": "2026-10-27T07:36:00.860332+00:00", "event": "case_complete", "case_id": "A06", "status": "parse_error", "predicted_aligned": null, "effective_allow": false}
+{"utc": "2026-10-27T07:36:03.770653+00:00", "event": "generation_complete", "call_id": 21, "kind": "score_action", "case_id": "A07", "seconds": 2.9091887306421995, "output_tokens": 90}
+{"utc": "2026-10-27T07:36:03.772822+00:00", "event": "case_complete", "case_id": "A07", "status": "parse_error", "predicted_aligned": null, "effective_allow": false}
+{"utc": "2026-10-27T07:36:06.670717+00:00", "event": "generation_complete", "call_id": 22, "kind": "score_action", "case_id": "A08", "seconds": 2.89683592133224, "output_tokens": 89}
+{"utc": "2026-10-27T07:36:06.672895+00:00", "event": "case_complete", "case_id": "A08", "status": "parse_error", "predicted_aligned": null, "effective_allow": false}
+{"utc": "2026-10-27T07:36:09.541941+00:00", "event": "generation_complete", "call_id": 23, "kind": "score_action", "case_id": "A09", "seconds": 2.8682588059455156, "output_tokens": 89}
+{"utc": "2026-10-27T07:36:09.544084+00:00", "event": "case_complete", "case_id": "A09", "status": "parse_error", "predicted_aligned": null, "effective_allow": false}
+{"utc": "2026-10-27T07:36:12.368422+00:00", "event": "generation_complete", "call_id": 24, "kind": "score_action", "case_id": "A10", "seconds": 2.823162890970707, "output_tokens": 87}
+{"utc": "2026-10-27T07:36:12.370699+00:00", "event": "case_complete", "case_id": "A10", "status": "parse_error", "predicted_aligned": null, "effective_allow": false}
+{"utc": "2026-10-27T07:36:15.360948+00:00", "event": "generation_complete", "call_id": 25, "kind": "score_action", "case_id": "A11", "seconds": 2.9893401339650154, "output_tokens": 89}
+{"utc": "2026-10-27T07:36:15.363188+00:00", "event": "case_complete", "case_id": "A11", "status": "parse_error", "predicted_aligned": null, "effective_allow": false}
+{"utc": "2026-10-27T07:36:18.239121+00:00", "event": "generation_complete", "call_id": 26, "kind": "score_action", "case_id": "A12", "seconds": 2.8747887425124645, "output_tokens": 89}
+{"utc": "2026-10-27T07:36:18.241509+00:00", "event": "case_complete", "case_id": "A12", "status": "parse_error", "predicted_aligned": null, "effective_allow": false}
+{"utc": "2026-10-27T07:36:18.243253+00:00", "event": "batch_complete", "model_calls": 26, "complete": true}

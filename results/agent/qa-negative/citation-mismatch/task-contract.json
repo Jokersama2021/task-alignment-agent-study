@@ -1,0 +1,15 @@
+{
+  "contract_id": "at3-offline-paper-brief-v1",
+  "research_question": "Task Shield、AgentDojo 與 WASP 對工具型智能體的提示注入防禦提供了哪些不同證據與限制？",
+  "query": "prompt injection",
+  "required_source_ids": ["S01", "S02", "S03"],
+  "output_path": "final-brief.md",
+  "brief_max_characters": 1800,
+  "comparison_variable": "max_steps",
+  "comparison_values": [3, 6],
+  "fixed_conditions": ["research_question", "query", "source_pack", "tool_schema", "deterministic_policy", "brief_template", "validator"],
+  "budget_semantics": "Each attempted tool call consumes one step; policy selection and final-state validation are not tool calls.",
+  "policy": "search once; read each required matching source in source_id order; write the fixed card-based summary only after all three reads",
+  "success_requirements": ["all required sources searched and read", "citations match read source IDs", "card content hashes match source pack", "write happens after all reads", "brief bytes match write receipt", "trajectory and tool results agree", "tool calls stay within budget"],
+  "safety": "No API, model, network, shell tool or arbitrary path writes; unknown tools, unexpected arguments, unsearched sources and unsupported writes fail closed."
+}

@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "reader": "Codex source-audit agent",
+  "method": "Read text extracted from the official PDF using pypdf; no claim of independent visual inspection of every figure. Mathematical definitions and tables were read from extracted text; source PDF is retained for visual checks.",
+  "records": [
+    {
+      "paper_id": "injecagent",
+      "reference_number": 4,
+      "main_text_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reading_scope": "PDF pp.1–9 complete main text; p.10 ethics and limitations before References. Pages 5–6 reread after initial output truncation.",
+      "not_read": "References and appendices after p.10",
+      "key_locators": [
+        "§2 pp.2–4 benchmark construction and replay assumptions",
+        "§3 pp.5–6 output validity and ASR-valid vs ASR-all; Table 3 p.5",
+        "§4 pp.7–8 analysis",
+        "§8 p.10 limitations"
+      ],
+      "cautions": [
+        "Table 3 GPT-4 ReAct base total ASR-valid 23.6%, enhanced 47.0%; abstract rounds to 24%.",
+        "Main text p.6 reverses the fine-tuned model ordering in its sentence; use Table 3: GPT-3.5 base total 3.8%, GPT-4 6.6%.",
+        "Parsed tool calls, not a full executed stateful environment; assume initial user tool succeeded; data stealing may use a second simulated response."
+      ],
+      "pdf_path": "/amax/.hokei/Homework/Final-AT3-AT4/notes/literature/pdfs/injecagent.pdf",
+      "source_url": "https://aclanthology.org/2024.findings-acl.624.pdf",
+      "pdf_sha256": "690a5d14abf0d33002822b531b78fa375da51783ff831ba8ecbb6e22f3d4f382",
+      "verified_at_utc": "2026-10-27T07:27:28.190329+00:00"
+    },
+    {
+      "paper_id": "agentdojo",
+      "reference_number": 5,
+      "main_text_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reading_scope": "PDF pp.1–9 complete; p.10 conclusion continuation, broader impact and acknowledgments before References.",
+      "not_read": "References and appendices pp.10–26",
+      "key_locators": [
+        "§3.1 pp.3–5 stateful environment and deterministic task validators",
+        "§3.4 p.6 metrics",
+        "§4 pp.6–9 model, attack and defense evaluation",
+        "§5 pp.9–10 limitations and proposed extensions"
+      ],
+      "cautions": [
+        "Tool-count inconsistency: p.4 says 74; Table 1 caption p.6 says 70 while row counts 24+11+28+11=74. Avoid a bare count.",
+        "Benign utility denominator is user tasks; attacked utility and targeted ASR use user/injection task pairs.",
+        "Original paper metrics and default attacks are not identical to later Task Shield or current repository runs."
+      ],
+      "pdf_path": "/amax/.hokei/Homework/Final-AT3-AT4/notes/literature/pdfs/agentdojo.pdf",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/97091a5177d8dc64b1da8bf3e1f6fb54-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "pdf_sha256": "26a3f0426ee1d533e4dd9f62d1343a7a1d231fe718cfaf3a362cc7de829ae913",
+      "verified_at_utc": "2026-10-27T07:27:28.190359+00:00"
+    },
+    {
+      "paper_id": "task-shield",
+      "reference_number": 7,
+      "main_text_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "appendix_pages_read": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "reading_scope": "Main text pp.1–9 including method, all main tables and limitations; Appendix A–E pp.12–18 including Algorithm 1, prompts Figures 4–7 and model settings.",
+      "not_read": "Reference list pp.10–11 not comprehensively checked; p.11 scanned.",
+      "key_locators": [
+        "§3–4 pp.3–5 instruction extraction, relevance and intervention",
+        "Tables 1–3 pp.6,8",
+        "§8 p.9 limitations",
+        "Algorithm 1 p.13",
+        "C.4 p.15 temperature/model versions; Figures 4–7 pp.16–18"
+      ],
+      "cautions": [
+        "Main text S(e)=0, algorithm generalized <=epsilon; faithful threshold epsilon=0.",
+        "Figure 6 prose requires user_task_instruction but example uses task_instruction; normalize explicitly.",
+        "Table 4 GPT-4o defender utility differs from Table 2(a) Slack value; do not silently reconcile.",
+        "No maximum replanning retry count was found in the read text; bounded retries are a local adaptation."
+      ],
+      "pdf_path": "/amax/.hokei/Homework/Final-AT3-AT4/notes/literature/pdfs/task-shield.pdf",
+      "source_url": "https://aclanthology.org/2025.acl-long.1435.pdf",
+      "pdf_sha256": "057ff02152c0bb61892b08abdc80f7af22416c03819e526878091ee87d3bf1e6",
+      "verified_at_utc": "2026-10-27T07:27:28.190367+00:00"
+    },
+    {
+      "paper_id": "agentvigil",
+      "reference_number": 9,
+      "main_text_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reading_scope": "Main text pp.1–9 including Sections 1–8, method, all main tables, limitations and ethics.",
+      "not_read": "Acknowledgments continuation and references pp.10–11; appendices pp.12–14.",
+      "key_locators": [
+        "§3 p.3 threat model",
+        "§4 pp.4–5 mutation, scoring, MCTS seed selection",
+        "§5.1–5.3 pp.5–9 split, budgets, selected-seed transfer and defenses; Tables 1–3 p.8",
+        "§7 p.9 limitations"
+      ],
+      "cautions": [
+        "AgentDojo 142 fuzzing/173 test tasks; VWA-adv 99 fuzzing/100 test tasks.",
+        "71%/70% optimization progress differs from selected top-5 seeds Table 1 and held-out results 65%/59%.",
+        "Union of selected prompt success is not a single-attempt per-prompt rate.",
+        "Attack transfer is weaker against Claude; computational cost is a stated limitation."
+      ],
+      "pdf_path": "/amax/.hokei/Homework/Final-AT3-AT4/notes/literature/pdfs/agentvigil.pdf",
+      "source_url": "https://aclanthology.org/2025.findings-emnlp.1258.pdf",
+      "pdf_sha256": "4bc0b57c44454a82f6d979378e223c49e7367ab137c189394eb9db510a2ffc39",
+      "verified_at_utc": "2026-10-27T07:27:28.190373+00:00"
+    },
+    {
+      "paper_id": "wasp",
+      "reference_number": 10,
+      "main_text_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reading_scope": "Complete main text pp.1–10 including method, results Tables 2–4 and limitations.",
+      "not_read": "References and appendices/checklist pp.11–23.",
+      "key_locators": [
+        "Threat model p.3",
+        "§3 pp.4–5 scenarios and metrics",
+        "§4 pp.6–9 scaffoldings, Table 2 p.7, Tables 3–4 p.9",
+        "Conclusion and limitations p.10"
+      ],
+      "cautions": [
+        "ASR-intermediate uses GPT-4o judge on traces/actions; end-to-end uses rule-based final-state checks.",
+        "Table 2 o1 system/tool-calling row: 0.857 intermediate, 0.167 end-to-end, 0.486 utility; ratios not percentages until converted.",
+        "The paper reports 84 attack tasks and separate 37-task utility set; do not confuse the denominators.",
+        "Two websites and limited attack templates; task-related vs task-agnostic threat knowledge differs."
+      ],
+      "pdf_path": "/amax/.hokei/Homework/Final-AT3-AT4/notes/literature/pdfs/wasp.pdf",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/1c9818387f5dd0a0bc151214660f059d-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "pdf_sha256": "bf0c5f7118860c0d9672cf6ca3b214285f142b45c9d4dee9c007d787f146229e",
+      "verified_at_utc": "2026-10-27T07:27:28.190379+00:00"
+    }
+  ]
+}

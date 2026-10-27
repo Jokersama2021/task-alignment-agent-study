@@ -1,0 +1,38 @@
+{
+  "success": false,
+  "checks": {
+    "fixed_inputs_match": true,
+    "provenance_hashes_match": true,
+    "runner_hash_matches_shipped_code": true,
+    "deterministic_fixture_disclosed": true,
+    "step_budget": true,
+    "logs_and_hash_chain": true,
+    "search_matches_query": true,
+    "source_content_hashes": true,
+    "state_and_call_order": true,
+    "all_three_sources_read": false,
+    "write_after_reads": false,
+    "brief_exists": false,
+    "write_receipt_matches_file": false,
+    "citations_match_read_sources": false,
+    "card_summaries_and_limits_preserved": false,
+    "brief_character_budget": false
+  },
+  "failed_checks": [
+    "all_three_sources_read",
+    "write_after_reads",
+    "brief_exists",
+    "write_receipt_matches_file",
+    "citations_match_read_sources",
+    "card_summaries_and_limits_preserved",
+    "brief_character_budget"
+  ],
+  "max_steps": 3,
+  "tool_calls": 3,
+  "sources_read": 2,
+  "source_ids": [
+    "S01",
+    "S02"
+  ],
+  "brief_sha256": null
+}

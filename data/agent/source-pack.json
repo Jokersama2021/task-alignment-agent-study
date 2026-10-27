@@ -1,0 +1,212 @@
+{
+  "pack_id": "AT3-IPI-SOURCE-PACK-v1",
+  "created_utc": "2026-10-27",
+  "language": "zh-Hant",
+  "purpose": "Offline citation-and-tool-loop coursework fixture; these cards are paraphrases grounded in reviewed primary papers.",
+  "frozen": true,
+  "sources": [
+    {
+      "source_id": "S01",
+      "paper_id": "task-shield",
+      "title": "The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in LLM Agents",
+      "citation": "Jia, F., Wu, T., Qin, X., & Squicciarini, A. (2025). ACL 2025, Long Papers, 29680–29697. doi:10.18653/v1/2025.acl-long.1435.",
+      "url": "https://aclanthology.org/2025.acl-long.1435.pdf",
+      "keywords": [
+        "prompt injection",
+        "task alignment",
+        "Task Shield",
+        "input shield",
+        "action shield"
+      ],
+      "summary_zh": "Task Shield 把間接提示注入防禦表述為任務對齊問題：其他來源提出的指令，必須有助於使用者目標。框架先由語言模型抽取可執行指令，建立使用者任務集合；再結合對話歷史，評估每條新指令對各項任務的直接或間接貢獻。分數介於零與一，總貢獻為零才判為不對齊，因此合理的準備步驟不必直接完成任務也能通過。工具輸出中的異常指令會被附上回饋與原目標提醒；不對齊的工具調用則在執行前攔截，讓智能體修正。完整方法也檢查助理自然語言內容。論文在 AgentDojo 比較完整框架、僅檢查輸入、僅檢查動作等版本，分別報告無攻擊效用、攻擊下效用與指定攻擊目標成功率，反映防禦不能只以阻擋比例評價。評分亦須考慮工具參數是否符合使用者要求。",
+      "limitation_zh": "抽取與評分依賴防禦模型能力，也增加推論成本；主要證據限於 GPT 家族和 AgentDojo。弱模型或適應性攻擊可能造成漏判與誤擋，本地小模型的簡化實作需要另做實測。",
+      "brief_summary_zh": "Task Shield 先用語言模型抽取使用者任務，再檢查新指令與工具調用的貢獻。工具輸出保留原文並附不對齊回饋；不對齊調用在執行前攔截。評估同時關注合法任務效用和攻擊目標達成。報告不能把單一安全分數當作全部結論。",
+      "brief_limitation_zh": "依賴抽取與評分模型的能力，且有額外推論成本；原文未驗證開源本地模型。",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "evidence": [
+        {
+          "pages": [
+            3,
+            4,
+            5
+          ],
+          "locator": "Sections 3–4: task alignment and processing"
+        },
+        {
+          "pages": [
+            6,
+            7,
+            8
+          ],
+          "locator": "Tables 1–3 and Sections 5.1–5.3"
+        },
+        {
+          "pages": [
+            9
+          ],
+          "locator": "Section 8: Limitations"
+        },
+        {
+          "pages": [
+            13,
+            16,
+            17,
+            18
+          ],
+          "locator": "Algorithm 1 and Figures 4–7"
+        }
+      ],
+      "pdf_sha256": "057ff02152c0bb61892b08abdc80f7af22416c03819e526878091ee87d3bf1e6",
+      "pdf_pages_total": 18,
+      "coverage_note": "Main text, method, experiments and limitations actually read on 2026-10-27; no claim that all appendices were read. Task Shield additionally includes Appendix A–E.",
+      "content_type": "Human-readable paraphrase prepared from a paper; not original paper text and not model experiment output.",
+      "summary_han_characters": 264,
+      "brief_han_characters": 89
+    },
+    {
+      "source_id": "S02",
+      "paper_id": "agentdojo",
+      "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+      "citation": "Debenedetti, E., Zhang, J., Balunovic, M., Beurer-Kellner, L., Fischer, M., & Tramèr, F. (2024). NeurIPS 2024, Datasets and Benchmarks Track. doi:10.52202/079017-2636.",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/97091a5177d8dc64b1da8bf3e1f6fb54-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "keywords": [
+        "prompt injection",
+        "AgentDojo",
+        "stateful tools",
+        "utility",
+        "security evaluation"
+      ],
+      "summary_zh": "AgentDojo 提供可擴充的工具型智能體評測環境，將使用者的合法任務、攻擊者目標、注入位置與環境狀態分開建模。智能體自行選擇工具，讀寫模擬的工作區、通訊、旅遊或銀行資料；不是只接收一次已寫好的工具回應。合法任務和攻擊任務各有可程式化判定條件，利用模型輸出及執行前後狀態核對目標是否完成，避免僅憑語氣或另一個模型評分。初版包含九十七個使用者任務和六百二十九個安全案例，並比較不同模型、攻擊提示及防禦。論文分別報告無攻擊效用、攻擊下效用與指定目標攻擊成功率，強調較低攻擊成功率也可能來自智能體不會完成攻擊所需操作。這個設計可支援後續加入新任務、攻擊與防禦，並以固定狀態檢查器比較工具流程。",
+      "limitation_zh": "原版涵蓋有限的合成環境，任務與判定條件需要人工設計；初始攻防較簡單，也未涵蓋連續多使用者任務或多模態情境。小型課堂狀態驗證器不能代表整套基準的安全性。",
+      "brief_summary_zh": "AgentDojo 讓智能體在有狀態的模擬環境中選擇並執行工具，分別檢查使用者任務和攻擊者目標。它同時報告正常效用、攻擊下效用與目標攻擊成功率，支持新任務、攻擊及防禦的加入。避免只看最後文字回覆就判定整項任務安全。",
+      "brief_limitation_zh": "原版環境和攻防範圍有限，任務與判定條件需人工設計；小型改編不能代表整套基準。",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "evidence": [
+        {
+          "pages": [
+            3,
+            4,
+            5
+          ],
+          "locator": "Section 3.1: environment, user task and injection task"
+        },
+        {
+          "pages": [
+            6
+          ],
+          "locator": "Section 3.4: metrics"
+        },
+        {
+          "pages": [
+            7,
+            8,
+            9
+          ],
+          "locator": "Section 4: evaluation"
+        },
+        {
+          "pages": [
+            9,
+            10
+          ],
+          "locator": "Section 5: extensions and limitations; page 10 read only before References"
+        }
+      ],
+      "pdf_sha256": "26a3f0426ee1d533e4dd9f62d1343a7a1d231fe718cfaf3a362cc7de829ae913",
+      "pdf_pages_total": 26,
+      "coverage_note": "Main text, method, experiments and limitations actually read on 2026-10-27; no claim that all appendices were read. Task Shield additionally includes Appendix A–E.",
+      "content_type": "Human-readable paraphrase prepared from a paper; not original paper text and not model experiment output.",
+      "summary_han_characters": 263,
+      "brief_han_characters": 90
+    },
+    {
+      "source_id": "S03",
+      "paper_id": "wasp",
+      "title": "WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
+      "citation": "Evtimov, I., Zharmagambetov, A., Grattafiori, A., Guo, C., & Chaudhuri, K. (2025). NeurIPS 2025, Datasets and Benchmarks Track. doi:10.52202/085713-0666.",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/1c9818387f5dd0a0bc151214660f059d-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "keywords": [
+        "prompt injection",
+        "WASP",
+        "web agents",
+        "end-to-end",
+        "intermediate success"
+      ],
+      "summary_zh": "WASP 在可控制的網頁沙箱中研究間接提示注入，使用 GitLab 與 Reddit 類網站，限制攻擊者只能像一般使用者般發文或留言，不能任意修改整個網站。合法使用者任務與攻擊者目標分別定義，並測試文字及網址型注入在不同智能體框架中的效果。其評估特別區分兩個階段：中途成功表示智能體已偏離使用者目標，由語言模型判讀執行軌跡；端到端成功則以規則檢查網頁最終狀態，確認攻擊者指定目標確實完成。論文發現兩者可能差距很大，部分智能體雖被帶偏，仍因操作能力不足而未完成攻擊。因此，看到低端到端攻擊成功率，不能直接推論防禦有效；還應檢查正常任務能力、操作軌跡，以及是否真的執行了造成狀態變更的行為。",
+      "limitation_zh": "資料涵蓋兩類網站，注入提示種類仍有限；結果會受模型與網頁操作框架共同影響。中途判定使用模型裁判，與規則式最終狀態成功不同，不能混為同一指標。",
+      "brief_summary_zh": "WASP 限制攻擊者只能修改網站中的使用者內容，並區分行為被帶偏與攻擊目標最終完成。前者用模型判讀軌跡，後者檢查網站狀態；兩者差距顯示，低攻擊完成率也可能反映操作能力不足。報告應清楚保留兩種成功定義與證據的差異。",
+      "brief_limitation_zh": "僅涵蓋兩類網站和有限注入提示；模型裁判的中途判定不能等同最終狀態成功。",
+      "reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "evidence": [
+        {
+          "pages": [
+            3,
+            4,
+            5
+          ],
+          "locator": "Threat model and Section 3: benchmark construction and metrics"
+        },
+        {
+          "pages": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "locator": "Section 4, Tables 2–4: settings and results"
+        },
+        {
+          "pages": [
+            10
+          ],
+          "locator": "Limitations and future work"
+        }
+      ],
+      "pdf_sha256": "bf0c5f7118860c0d9672cf6ca3b214285f142b45c9d4dee9c007d787f146229e",
+      "pdf_pages_total": 23,
+      "coverage_note": "Main text, method, experiments and limitations actually read on 2026-10-27; no claim that all appendices were read. Task Shield additionally includes Appendix A–E.",
+      "content_type": "Human-readable paraphrase prepared from a paper; not original paper text and not model experiment output.",
+      "summary_han_characters": 252,
+      "brief_han_characters": 94
+    }
+  ]
+}

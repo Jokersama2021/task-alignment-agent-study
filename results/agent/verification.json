@@ -1,0 +1,98 @@
+{
+  "independent_validator": true,
+  "runner_imported": false,
+  "comparison_as_expected": true,
+  "conditions": {
+    "3": {
+      "success": false,
+      "checks": {
+        "fixed_inputs_match": true,
+        "provenance_hashes_match": true,
+        "runner_hash_matches_shipped_code": true,
+        "deterministic_fixture_disclosed": true,
+        "step_budget": true,
+        "logs_and_hash_chain": true,
+        "search_matches_query": true,
+        "source_content_hashes": true,
+        "state_and_call_order": true,
+        "all_three_sources_read": false,
+        "write_after_reads": false,
+        "brief_exists": false,
+        "write_receipt_matches_file": false,
+        "citations_match_read_sources": false,
+        "card_summaries_and_limits_preserved": false,
+        "brief_character_budget": false
+      },
+      "failed_checks": [
+        "all_three_sources_read",
+        "write_after_reads",
+        "brief_exists",
+        "write_receipt_matches_file",
+        "citations_match_read_sources",
+        "card_summaries_and_limits_preserved",
+        "brief_character_budget"
+      ],
+      "max_steps": 3,
+      "tool_calls": 3,
+      "sources_read": 2,
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "brief_sha256": null
+    },
+    "6": {
+      "success": true,
+      "checks": {
+        "fixed_inputs_match": true,
+        "provenance_hashes_match": true,
+        "runner_hash_matches_shipped_code": true,
+        "deterministic_fixture_disclosed": true,
+        "step_budget": true,
+        "logs_and_hash_chain": true,
+        "search_matches_query": true,
+        "source_content_hashes": true,
+        "state_and_call_order": true,
+        "all_three_sources_read": true,
+        "write_after_reads": true,
+        "brief_exists": true,
+        "write_receipt_matches_file": true,
+        "citations_match_read_sources": true,
+        "card_summaries_and_limits_preserved": true,
+        "brief_character_budget": true
+      },
+      "failed_checks": [],
+      "max_steps": 6,
+      "tool_calls": 5,
+      "sources_read": 3,
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "brief_sha256": "b3ed514ba188f37c4af14d14ef78e3d6454865e2c92a4312ad256000b1191e55"
+    }
+  },
+  "negative_quality_checks": [
+    {
+      "case": "tampered-brief",
+      "role": "validator quality check, not experimental factor",
+      "detected": true,
+      "failed_checks": [
+        "write_receipt_matches_file"
+      ]
+    },
+    {
+      "case": "citation-mismatch",
+      "role": "validator quality check, not experimental factor",
+      "detected": true,
+      "failed_checks": [
+        "write_receipt_matches_file",
+        "citations_match_read_sources",
+        "card_summaries_and_limits_preserved"
+      ]
+    }
+  ],
+  "all_quality_checks_passed": true,
+  "validator_sha256": "cef15e098b0689f9b31cde1bdc40b1a2d6e71a9b41975f008e2025cf5b81e81d"
+}

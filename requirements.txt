@@ -1,0 +1,8 @@
+# The offline agent and all result verifiers use only the Python standard library.
+# These packages record the real model-inference environment.
+# Select the appropriate CUDA wheel/driver for your own machine.
+torch==2.11.0
+transformers==5.13.1
+tokenizers==0.22.2
+safetensors==0.8.0
+numpy==2.3.5

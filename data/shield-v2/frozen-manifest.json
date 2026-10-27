@@ -1,0 +1,11 @@
+{
+  "sha256": {
+    "config.json": "a1202c26baa0003f17e1126e7cc2e638981683abf55516a21b998554e7ba89f5",
+    "cases.json": "05dc8435eb1d45e990061d91dc8d816d161fd28a214ee6109b61089b0bbb6570"
+  },
+  "protocol_status": "fixed_before_v2_batch_inference",
+  "frozen_at_utc": "2026-10-27T07:40:34.378157+00:00",
+  "pilot_cases_included": false,
+  "development_status": "one authorized post-v1 repair, same cases and labels; not held-out",
+  "base_cases_sha256": "05dc8435eb1d45e990061d91dc8d816d161fd28a214ee6109b61089b0bbb6570"
+}

@@ -1,0 +1,5 @@
+{
+  "role": "negative validator quality check",
+  "mutation": "tampered-brief",
+  "not_an_experiment_condition": true
+}

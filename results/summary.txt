@@ -1,0 +1,12 @@
+ACTUAL SAVED RUNS | Qwen3.5-4B | RTX 5090 | 2026-10-27
+24 distinct cases; v2 reuses v1 cases after engineering repair.
+version stage   valid  aligned allow  off-task flag  format errors
+v1      input  11/12       5/6           0/6              1
+v1      action  0/12       0/6           6/6             12
+v1: 26 calls; 1296 output tokens; generation 54.95s
+v2      input  12/12       3/6           5/6              0
+v2      action 12/12       2/6           6/6              0
+v2: 36 calls; 5015 output tokens; generation 161.92s
+OFFLINE FIXTURE | max_steps=3: 3 calls, 2 reads, FAIL
+OFFLINE FIXTURE | max_steps=6: 5 calls, 3 reads, PASS
+Gate events are inert. A parse-failure block is not semantic success.
