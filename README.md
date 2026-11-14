@@ -2,7 +2,7 @@
 
 GitHub：https://github.com/Jokersama2021/task-alignment-agent-study
 
-倉庫目前為 private；教師需要取得存取權才能線上瀏覽。提交包另附完整程式與實際結果。
+倉庫已公開，教師可直接開啟連結瀏覽。提交包另附完整程式與實際結果。
 
 AT3 累積式大作業與 AT4 期末整合報告的可重跑程式庫。主線為工具型智能體的間接提示注入防禦，包含 Task Shield 核心組件縮小復現及離線來源整理 Agent。
 
