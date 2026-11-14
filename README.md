@@ -1,5 +1,7 @@
 # 任務對齊與可驗證完成
 
+GitHub：https://github.com/Jokersama2021/task-alignment-agent-study
+
 AT3 累積式大作業與 AT4 期末整合報告的可重跑程式庫。主線為工具型智能體的間接提示注入防禦，包含 Task Shield 核心組件縮小復現及離線來源整理 Agent。
 
 ## 先看這些檔案
